@@ -9997,3 +9997,15 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+@media (max-width: 768px) {
+  .education-description, .job-description {
+    flex-direction: column;
+    padding-top: 7%;
+  }
+
+  .education-img, .job-img {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
